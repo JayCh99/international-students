@@ -1,10 +1,9 @@
-filepath = r'~/PyCharmProjects/Battery Project/Data/Aggregate'
-filepath += r"/Test.xlsx"
-print(filepath)
-
-print(len(['SOUTH AFRICA', 'Africa', 'Southern Africa', '2036', '1000', '1036', '256', '1004', '154', '2', '1', '1', '400', '86', '55', '7', '70', '0', '37', '26', '17', '265', '35', '40', '21', '7', '104', '52', '1', '1', '22', '26', '63', '23', '19', '24', '16', '142', '33', '7', '46', '15', '38', '0', '18', '2', '61', '4', '6', '13', '44', '3', '8', '276', '49', '29', '17', '97', '1', '16', '28', '6', '33', '132', '18', '36', '0', '5', '33', '9', '12', '0']))
-
-print(str("﻿Country of Citizenship".encode('ascii', 'ignore')))
+# filepath = r'~/PyCharmProjects/Battery Project/Data/Aggregate'
+# filepath += r"/Test.xlsx"
+# print(filepath)
+#
+# print(len(['SOUTH AFRICA', 'Africa', 'Southern Africa', '2036', '1000', '1036', '256', '1004', '154', '2', '1', '1', '400', '86', '55', '7', '70', '0', '37', '26', '17', '265', '35', '40', '21', '7', '104', '52', '1', '1', '22', '26', '63', '23', '19', '24', '16', '142', '33', '7', '46', '15', '38', '0', '18', '2', '61', '4', '6', '13', '44', '3', '8', '276', '49', '29', '17', '97', '1', '16', '28', '6', '33', '132', '18', '36', '0', '5', '33', '9', '12', '0']))
+# print(str("﻿Country of Citizenship".encode('ascii', 'ignore')))
 
 def timestamped_sevis_urls(get_stem=False):
     ts_urls = []
